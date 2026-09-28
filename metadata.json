@@ -1,0 +1,6 @@
+{
+  "name": "Nyaya - Legal Assistance Platform",
+  "description": "Legal assistance and intelligence platform designed for the Indian legal journey, featuring law library, case tracker, appointment booking, verified advocate directory, and document vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./artifacts/legal-assistance/src/*"],
+      "@workspace/api-client-react": ["./lib/api-client-react/src/index.ts"],
+      "@workspace/api-zod": ["./lib/api-zod/src/index.ts"],
+      "@workspace/db": ["./lib/db/src/index.ts"],
+      "@assets/*": ["./attached_assets/*"]
+    }
+  },
+  "include": [
+    "server.ts",
+    "artifacts/api-server/src/**/*",
+    "artifacts/legal-assistance/src/**/*",
+    "lib/api-client-react/src/**/*",
+    "lib/api-zod/src/**/*",
+    "lib/db/src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "artifacts/mockup-sandbox",
+    "lib/api-spec"
+  ]
+}
